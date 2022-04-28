@@ -2,6 +2,10 @@
 
 Collection of the existing proposals to implement UTXO commitments and FastSync in the Bitcoin Cash network.
 
+## What are UTXO commitments?
+
+UTXO commitments allow nodes to retrieve the current state of the network without needing to download the entire transaction history. Instead, they get a snapshot of the state of the blockchain (UTXO set) and perform a cryptographic verification to make sure they have the correct state, which then allows them to function normally.
+
 ## Existing proposals
 
 - [UtxoCommitment version 0](https://github.com/tomasvdw/bips/blob/master/ecmh-utxo-commitment-0.mediawiki) by Tomas van der Wansem.
